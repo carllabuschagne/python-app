@@ -13,7 +13,7 @@ from jinja2 import TemplateNotFound
 @blueprint.route("/list")
 # @login_required
 def list():
-    return 'Working !!! <a href="/list-html"> PAGE </a>'
+    return 'Working <a href="/list-html"> PAGE </a>'
 
 
 @blueprint.route("/list-html")
